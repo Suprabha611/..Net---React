@@ -4,7 +4,7 @@ import '../Styles/Functional.css';
 function FunctionalComponent()
 {
  return(
-    <h4><FunctionalComponent4></FunctionalComponent4>I AM THE FIRST FUNCTIONAL COMPONENT AND <FunctionalComponent1></FunctionalComponent1></h4>
+    <h4><FunctionalComponent4></FunctionalComponent4>I AM THE FIRST FUNCTIONAL COMPONENT<FunctionalComponent1></FunctionalComponent1></h4>
  )
 }
 function FunctionalComponent1()
@@ -24,7 +24,6 @@ const FunctionalComponent3=()=>{
     return(
         <div>
         <p>I AM THE FOURTH FUNCTIONAL COMPONENT ENCLOSED IN DIV TAG</p>
-        <p>I AM THE FOURTH FUNCTIONAL COMPONENT ENCLOSED IN DIV TAG</p>
         </div>
     )
 }
@@ -35,9 +34,9 @@ const FunctionalComponent4=()=>{
     return(
         <table style={{width:'100'}}>
             <thead>
-                <tr>
+                <td>
                     <FunctionalComponent5></FunctionalComponent5>
-                </tr>
+                </td>
             </thead>
         </table>
     )
@@ -48,10 +47,9 @@ const FunctionalComponent4=()=>{
 const FunctionalComponent5=()=>{
     return(
         <React.Fragment>
-        <td>SNO</td>
-        <td>NAME</td>
-        <td>AGE</td>
-        <td>DESIGNATION</td>
+        <td>Finish and Designs</td>
+        <td>Jewel Type</td>
+        <td>Price</td>
         </React.Fragment>
     )
 }
