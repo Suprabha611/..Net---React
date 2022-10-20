@@ -1,0 +1,11 @@
+nav{
+    background-color: gray;
+}
+.nav-item{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.nav-link{
+    color:white;
+    font-weight: bold;
+}
