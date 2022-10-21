@@ -1,0 +1,30 @@
+h4{
+    background-color: orangered;
+    padding:30px;
+    font-weight: bolder;
+    color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.container1{
+    background-color:#e6e6e6;
+    padding: 60px;
+}
+h3{
+    color: orangered;
+}
+.container2{
+    border-color: black;
+}
+#col1{
+    background-color: orangered;
+}
+#col2{
+    background-color: grey;
+}
+#h31{
+    color: white;
+}
