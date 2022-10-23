@@ -31,11 +31,15 @@ export default function NavBar() {
                     <Link className="nav-link" to="">CONTACTS</Link>
                 </li>
             </ul>
-            {/* <ul>
-                <li className='linkicon'>
-                    <a> <i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-            </ul> */}
+            <div className="col-lg-3 col-12 m-auto">
+                <ul class="inline-list m-auto">
+                    <li><a href="#" class="fa fa-twitter-square"></a></li>
+                    <li><a href="#" class="fa fa-youtube"></a></li>
+                    <li><a href="#" class="fa fa-rss"></a></li>
+                    <li><a href="#" class="fa fa-facebook-square"></a></li>
+                    <li><a href="#" class="fa fa-google-plus-square"></a></li>
+                </ul>
+            </div>
         </nav>
     )
 }

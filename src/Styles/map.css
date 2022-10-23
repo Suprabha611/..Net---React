@@ -1,0 +1,39 @@
+.map{
+    height: 250px;
+    padding-left: 23px;
+    background: url("https://livedemo00.template-help.com/wt_55458/images/pattern-light-gray.jpg") 100% 100% repeat-x;
+}
+
+.map1 ,.map2, .map3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.fa-map-marker,.fa-envelope,.fa-phone{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    background: #dc6226;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    line-height: 70px;
+    margin-top: 0;
+    display: inline-block;
+    border: 8px solid #6d717c;
+    vertical-align: middle;
+}
+
+.fa-map-marker:hover,.fa-envelope:hover,.fa-phone:hover{
+    color: white;
+}
+
+.address{
+    font-size: 20px;
+    padding-left: 12px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+}

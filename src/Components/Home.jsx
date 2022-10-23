@@ -65,7 +65,7 @@ function caro() {
                     </div>
                 </div>
             </div> 
-            <div className="container1">
+            {/* <div className="container1">
                 <div className="row">
                     <div className="col col-sm-12">
                     <h2 style={{textAlign:"center"}}> ADVICE ON HOW TO MAKE WISE INVESTMENTS </h2>
@@ -73,8 +73,6 @@ function caro() {
                     If you have no experience in investing, or you do not want to risk, and would like to get a reliable tool and a guaranteed source of income, leave it to the professionals.</p>
                     </div>
                 </div>
-            {/* </div>
-            <div className="container"> */}
                 <div className="row">
                     <div className="col col-sm-4">
                         <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-advice1.jpg"></img>
@@ -107,11 +105,11 @@ function caro() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container2" id="h31">
                 <div className="row">
                     <div className="col col-sm-6" id="col1">
-                        <h3 id="h31">Fresh Investment Solutions!</h3>
+                        <h3 id="h31" style={{textAlign:"center"}}>Fresh Investment Solutions!</h3>
                         <ul>
                             <li>Boutique Discretionary Investment Management & Stockbroking Services</li>
                             <li>Third Party Fund Investments</li>
@@ -122,7 +120,7 @@ function caro() {
                         <button type="button"> LEARN MORE</button>
                     </div>
                     <div className="col col-sm-6" id="col2">
-                        <h3 id="h31">Learning to Save Money</h3>
+                        <h3 id="h31" style={{textAlign:"center"}}>Learning to Save Money</h3>
                         <ul>
                             <li>Investment course</li>
                             <li>Marketing course</li>
@@ -133,6 +131,43 @@ function caro() {
                     </div>
                 </div>
             </div>
+            <div className="container3">
+                <div class="partners-logo">
+                    <div className="row">
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner4.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner5.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner6.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/12/mt-0239-home-partner11.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/11/mt-0239-home-partner2.jpg"></img>
+                            </div>
+                        </div>
+                        <div className="col col-lg-2">
+                            <div className="card" id="car1">
+                                <img src="https://template55984.motopreview.com/mt-demo/55900/55984/mt-content/uploads/2015/12/mt-0239-home-partner13.jpg"></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 }
